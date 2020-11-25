@@ -1,0 +1,1 @@
+# Strapi dockerized project template
