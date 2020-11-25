@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "healthchecks",
+  "info": {
+    "name": "Healthcheck"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "response": {
+      "type": "string"
+    }
+  }
+}

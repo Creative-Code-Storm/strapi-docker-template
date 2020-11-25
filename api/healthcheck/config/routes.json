@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/healthcheck",
+      "handler": "healthcheck.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/healthcheck",
+      "handler": "healthcheck.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/healthcheck",
+      "handler": "healthcheck.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
